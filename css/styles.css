@@ -1,3 +1,103 @@
+:root{
+    --first-btn-color: #ffffff;
+    --second-btn-color:#303030;
+    --basic-lh: 1.36;
+    --accent-color:#ff6c00;
+}
 body{
     font-family: "Open Sans", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+.header{
+    background-color: grey ;
+
+}
+.header-link,
+.header-tel{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+.header-link:hover,
+.hader-link:focus{
+    color: var(--accent-color);
+}
+.header-btn{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--first-btn-color);
+    background-color: black;
+}
+/* Hero */
+.hero{
+    background: var(--first-btn-color);
+}
+.hero-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: var(--basic-lh);
+    letter-spacing: 0.2em;
+    color: var(--second-btn-color);
+}
+.hero-link:hover,
+.hero-link:focus{
+    color: var(--accent-color);
+}
+.hero-pre-title{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: var(--basic-lh);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:rgba(157, 164, 180, 0.6)
+}
+.hero-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--first-btn-color);
+}
+.hero-after-title{
+    font-size:18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color:#9da4bd;
+}
+/* About */
+.about{
+
+}
+.about-list{
+
+}
+.about-item{
+
+}
+.about-pre-title{
+
+}
+.about-title{
+
+}
+.about-after-title{
+
+}
+.about-text{
+
+}
+.about-btn{
+
 }
